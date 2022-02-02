@@ -34,7 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          date -s "02/02 11:00 2022"
+          sudo date -s "02/02 11:00 2022"
       - name: Run php server
         run: php -S 127.0.0.1:8000 &
       - name: apache bench start
